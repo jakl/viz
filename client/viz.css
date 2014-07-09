@@ -1,0 +1,24 @@
+svg {
+  margin: 5px;
+  border: 1px solid lightgray;
+}
+circle {
+  fill: #55acee;
+  stroke: #e1e8ed;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: lightgray;
+  shape-rendering: crispEdges;
+}
+
+.tick text {
+  color: gray;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
